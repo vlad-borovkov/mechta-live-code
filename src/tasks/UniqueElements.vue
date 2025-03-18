@@ -6,13 +6,8 @@ const items = [
   "plum", "peach", "mango", "kiwi", "watermelon", "grape"
 ];
 
-function getUniqueElements(arr: string[]) {
-  const uniqueElements = [ ... new Set(arr) ];
-  return uniqueElements;
-}
-
 // Должен отобразиться массив с уникальными элементами
-console.log(getUniqueElements(items));
+
 </script>
 
 <template>

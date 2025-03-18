@@ -22,7 +22,7 @@ const crashDataBase = [
 //     else return car;
 // });
 
-console.log(repairedCars);
+// console.log(repairedCars);
 </script>
 <template>
     <div class="flex flex-col gap-4">

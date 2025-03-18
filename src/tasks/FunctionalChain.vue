@@ -16,25 +16,6 @@ getCar(toUpper).print('Honda', 'Fit') --> HONDA FIT
 Использует замыкания 
 
 /******************************************* */
-type CaseTransform = "UpperCase" | "LowerCase" | undefined;
-
-const getCar = (caseTransform: CaseTransform) => {
-  return {
-    print: (brand: string, model: string) => {
-      let formatted = `${brand} ${model}`;
-      if (caseTransform === "LowerCase") {
-        formatted = formatted.toLowerCase();
-      } else if (caseTransform === "UpperCase") {
-        formatted = formatted.toUpperCase();
-      }
-      console.log(formatted);
-    },
-  };
-};
-
-getCar("UpperCase").print("Toyota", "Camry");
-getCar("LowerCase").print("Toyota", "Corolla");
-getCar(undefined).print("Mercedes-benz", "E 350");
 
 </script>
 

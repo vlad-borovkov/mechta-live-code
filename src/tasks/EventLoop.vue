@@ -6,7 +6,7 @@ import { MICard, MITag } from 'mechtaui';
 eventLoopQueryLog()
 
 function eventLoopQueryLog() {
-console.log('Start'); // 1
+console.log('Start'); 
 
 setTimeout(() => {
   console.log('setTimeout');
@@ -28,7 +28,7 @@ Promise.resolve().then(() => {
   console.log('Promise 3');
 }); //5
 
-console.log('End'); //2
+console.log('End');
 }
 </script>
 
